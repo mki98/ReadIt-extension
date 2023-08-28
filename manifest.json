@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "ReadIt",
+  "version": "1",
+
+  "description": "Read Selected text",
+
+  "icons": {
+    "48": "icons/speech.png"
+},
+  "permissions": ["activeTab", "contextMenus"],
+   "background": {
+    "scripts": ["textToVoice.js"]
+  }
+
+}
