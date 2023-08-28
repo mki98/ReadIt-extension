@@ -1,7 +1,7 @@
 # ReadIt-extenstion
 
-**I have always had the problem of not having enough pateins to read a full article or a large blog post althought it has some valuable info that whould help me.
-So I made this extension to read the text of this blogs using simple a simple plugin that is avalible in almost every browser.**
+**I have always had the problem of not having enough patience to read a full article or a large blog post, although it has some valuable information that could help me.
+So I made this extension to read the text of these blogs using a simple plugin that is available in almost every browser.**
 
 # Demo
 
@@ -11,16 +11,16 @@ https://github.com/mki98/ReadIt-extenstion/assets/62201748/50a825f0-df7d-4a5a-90
 - if you are using **firefox**
 	-  click on the top right menu 
 	-  choose more tools
-	-  remote debuging
+	-  remote debugging
   -  this firefox on the left side
-  -  load a temporary add-on & select the mainfest.json file
+  -  load a temporary add-on & select the manifest.json file
 - if you are using **chrome** or **edge**
   - click on the right menu
-  - choose extensions & turn on developer tools top right
-  - click on load unpacked and choose the folder that contains the exteension 
+  - choose extensions & turn on developer mode on the top right
+  - click on load unpacked and choose the folder that contains the extension 
 
 # Future Updates 	
 
-- [ ] Add popup window with controlls
+- [ ] Add popup window with controls
 
-- [ ] Ablitiy to change voices of the reader
+- [ ] Ablitiy to change the voices of the reader
