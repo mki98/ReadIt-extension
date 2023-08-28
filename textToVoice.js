@@ -1,29 +1,32 @@
-browser.contextMenus.create({
+
+
+
+chrome.contextMenus.create({
   id: "ReadIt",
   title: "ReadIt",
   contexts: ["all"],
 });
-browser.contextMenus.create({
+chrome.contextMenus.create({
   id: "readSelectedText",
   title: "Read Selaction Text",
   contexts: ["selection"],
   parentId: "ReadIt",
 });
-browser.contextMenus.create({
+chrome.contextMenus.create({
   id: "pause",
   title: "Pause Read",
   contexts: ["all"],
   parentId: "ReadIt",
 });
 
-browser.contextMenus.create({
+chrome.contextMenus.create({
   id: "resume",
   title: "Resume Read",
   contexts: ["all"],
   parentId: "ReadIt",
 });
 
-browser.contextMenus.create({
+chrome.contextMenus.create({
   id: "stop",
   title: "Stop Read",
   contexts: ["all"],
@@ -55,7 +58,7 @@ const menuActions = {
   },
 };
 
-browser.contextMenus.onClicked.addListener((info, tab) => {
+chrome.contextMenus.onClicked.addListener((info, tab) => {
   const actionFunction = menuActions[info.menuItemId];
   if (actionFunction) {
     actionFunction(info.selectionText);
