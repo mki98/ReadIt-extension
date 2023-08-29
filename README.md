@@ -1,4 +1,4 @@
-# ReadIt-extenstion
+# ReadIt-extension
 
 **I have always had the problem of not having enough patience to read a full article or a large blog post, although it has some valuable information that could help me.
 So I made this extension to read the text of these blogs using a simple plugin that is available in almost every browser.**
